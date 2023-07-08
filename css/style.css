@@ -32,7 +32,7 @@ Author: uiCookies.com
 
 # Body  (text): #888
 # Heading Color #0E1555
-# Theme Color (link color) #C4820F
+# Theme Color (link color) #b31819
 # Mid grey (sub header) #666666
 # -------------------------------------------------------------------*/
 
@@ -40,7 +40,7 @@ body {
     font-family : 'Roboto', sans-serif;
     font-size   : 17px;
     line-height : 1.7em;
-    color       : #353e55;
+    color       : #151515;
     font-weight : 100;
     background  : #ffffff;
     border      : 10px solid #fff;
@@ -52,7 +52,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
-    color  : #0e1555;
+    color  : #151515;
     }
 
 h1 {
@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #C4820F;
+    color              : #b31819;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -109,11 +109,11 @@ a:focus,
 
 a:navbar {
     text-decoration : none;
-    color           : #C4820F ;
+    color           : #b31819 ;
     }
 a:registration {
     text-decoration : none;
-    color           : #003262 ;
+    color           : #151515 ;
     }
 a:active {
     text-decoration : none;
@@ -159,31 +159,31 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #353e55;
-    border-color     : #353e55;
+    background-color : #151515;
+    border-color     : #151515;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #353e55;
-    border-color : #353e55;
+    color        : #151515;
+    border-color : #151515;
     }
 
 /*btn-default*/
 .btn-default {
-    color            : #353e55;
+    color            : #151515;
     background-color : transparent;
-    border-color     : #353e55;
+    border-color     : #151515;
     }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active:focus {
     background-color : transparent;
-    color            : #C4820F;
-    border-color     : #C4820F;
+    color            : #b31819;
+    border-color     : #b31819;
     }
 
 button:focus,
@@ -283,14 +283,14 @@ button:focus,
     }
 
 .main-menu .nav li a {
-    color       : #353e55;
+    color       : #151515;
     font-weight : 800;
     padding     : 15px 0 15px 30px;
     }
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #C4820F;
+    color      : #b31819;
     background : transparent;
     }
 
@@ -311,7 +311,7 @@ button:focus,
 
     .main-menu .nav li a {
     padding : 5px 0;
-    color: #F5A956;
+    color: #b31819;
         }
 
     .navbar-collapse {
@@ -357,8 +357,8 @@ button:focus,
 
 .jumbotron {
     
-    /*background            : #888888 !important;*/
-	background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.3)), url("../img/GoldenGate.jpg");
+/*    background            : #888888 !important;*/
+	background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.3)), url("../img/stanford.jpeg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -373,7 +373,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #C4820F;
+    color             : #b31819;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -388,7 +388,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #003262;
+    color       : #cc1c00;
     font-weight : bold;
     }
 
@@ -401,7 +401,7 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
-    color: #003262;
+    color: #cc1c00;
     }
 
 .jumbotron .btn {
@@ -461,7 +461,7 @@ button:focus,
     }
 
 .about-event address strong {
-    color : #353e55;
+    color : #151515;
     }
 
 /* ----------------------------------------------
@@ -705,7 +705,7 @@ button:focus,
 .form-control:focus,
 .form-control:active {
     box-shadow   : none;
-    border-color : #C4820F;
+    border-color : #b31819;
     }
 
 
